@@ -18,3 +18,32 @@
   -ms-overflow-style: none;  
   scrollbar-width: none;    
 }
+
+.user-modal {
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.user-modal button {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+  background: pink;
+  border: none;
+  cursor: pointer;
+}
+
+.user-modal a {
+  display: block;
+  margin-top: 5px;
+  color: #007bff;
+  text-decoration: underline;
+}

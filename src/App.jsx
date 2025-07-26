@@ -5,6 +5,8 @@ import Navbar from "./components/Navbar";
  import NewCollection from "./pages/NewCollection";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
+import SignUp from "./components/Auth/SignUp";
+
 function App() {
 
 
@@ -44,6 +46,13 @@ function App() {
           path="/contactUs"
           element={
            <ContactUs/>
+          }
+        />
+
+       < Route
+          path="/sign-up"
+          element={
+           <SignUp/>
           }
         />
 

@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import AboutUs from "./pages/AboutUs";
 import ContactUs from "./pages/ContactUs";
 import SignUp from "./components/Auth/SignUp";
+import NotFound from "./components/NotFound";
+
 
 function App() {
 
@@ -55,7 +57,7 @@ function App() {
            <SignUp/>
           }
         />
-
+<Route path="/notfound" element={<NotFound />} />
         
 
       
